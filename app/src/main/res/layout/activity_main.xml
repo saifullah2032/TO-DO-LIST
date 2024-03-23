@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/img"
+
+    tools:context=".MainActivity">
+    <Button
+        android:layout_marginLeft="200px"
+        android:layout_marginTop="650px"
+        android:layout_width="310px"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:textSize="30px"
+        android:background="#8176A448"
+        android:textStyle="italic"
+        android:textColor="#F1EAEA"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/startgame"
+        android:text="START TO-DOLIST📃"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="271dp"
+        tools:ignore="MissingConstraints" />
+
+
+</RelativeLayout>
